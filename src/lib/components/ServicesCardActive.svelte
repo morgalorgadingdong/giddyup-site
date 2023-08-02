@@ -78,8 +78,9 @@
 
     .card-number {
         font-size: 2rem;
-        font-weight: 700;
+        font-weight: 500;
         color: var(--color-secondary);
+        font-family: var(--font-header);
     }
 
     .card-name {

@@ -30,7 +30,7 @@ function setActiveService() {
 <div class="card px-3 py-3 {active ? 'active' : undefined}" on:click={setActiveService}>
     <div class="col-12 d-flex justify-content-between px-0 align-items-end services-icon-container">
         <p class="card-number mb-0 mr-2">{number}.</p>
-        <img src={img} alt={service} class="services-icon mx-0"/>
+        <img src={img} alt={service} class="services-icon mx-0 my-0"/>
     </div>
     
     <p class="card-name mb-0">{service}</p>
@@ -52,13 +52,13 @@ function setActiveService() {
         cursor: pointer;
     }
 
-    .services-icon-container {
+    /* .services-icon-container {
         min-height: 128px !important;
-        
-    }
+    } */
+
     .services-icon {
       max-height: 128px;
-      max-width: 70%;
+      max-width: 50%;
     }
 
 
@@ -66,6 +66,7 @@ function setActiveService() {
         font-size: 2rem;
         font-weight: 700;
         color: var(--color-secondary);
+        font-family: var(--font-header);
     }
 
     .card-name {
