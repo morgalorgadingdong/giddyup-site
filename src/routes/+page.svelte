@@ -12,14 +12,14 @@
 
     let services = [
         {
-          service: "web design",
+          service: "Web Design",
           description: "Branded and Beautiful - We create beautiful designs that perfectly reflect your brand identity while offering clean and intuitive navigation. Our approach combines aesthetics and usability, ensuring a visually pleasing and user-centered experience that will keep your customers engaged and informed.",
           number: 1,
           img: "./img/web-design.png",
           active: true
         },
         {
-            service: 'development',
+            service: 'Development',
             description: "Fast and Future-Ready - We leverage the latest and greatest in web development technologies to build lightning-fast, responsive websites and apps. Our approach ensures scalability, making future updates efficient and cost-effective. With us, you're not just building a website, but a long-term, adaptable digital presence.",
             number: 2,
             img: "./img/web-development.png",
@@ -132,7 +132,7 @@
 <section id="work" class="col-12 d-flex justify-content-center">
     <div class="col-12 col-md-10 col-xl-8 d-flex justify-content-center flex-wrap" >
       <h2 class="col-12 mb-5 animate animate-left">recent work</h2>
-      <h3 class="col-12 mt-5 animate animate-left">Oregon Bicycle Adventures</h3>
+      <h3 class="col-12 animate animate-left">Oregon Bicycle Adventures</h3>
       <div class="col-12 d-flex justify-content-center work-img-container my-lg-5 my-3">
         <div class="img-desktop col-12 col-md-11 animate animate-left" style="background-image: url('img/oba-desktop.jpg')" onclick="location.href='https://oregonbicycleadventures.com'"></div>
         <div class="img-mobile col-3 col-md-2 animate-delay animate animate-left" style="background-image: url('img/oba-mobile.jpg')" onclick="location.href='https://oregonbicycleadventures.com'"></div>

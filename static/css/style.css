@@ -81,7 +81,7 @@ header ul {
 
 li {
   list-style: none;
-  transition: all 1s;
+  transition: hover 1s;
 }
 
 li.active {
@@ -196,7 +196,7 @@ button:focus-visible {
   font-family: var(--font-paragraph);
   box-shadow: -4px 4px 8px var(--color-secondary);
   border: none;
-  border-radius: 0;
+  border-radius: 5px;
   transition: all 1s;
   text-transform: uppercase;
 }

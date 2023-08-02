@@ -15,12 +15,12 @@
     let cardHeight
     let mounted = false
 
-    onMount(() => {
-        card = document.querySelector('.card');
-        cardHeight = card.offsetHeight;
-        card.style.minHeight = cardHeight + 'px';
-        mounted = true
-    })
+    // onMount(() => {
+    //     card = document.querySelector('.card');
+    //     cardHeight = card.offsetHeight;
+    //     card.style.minHeight = cardHeight + 'px';
+    //     mounted = true
+    // })
 
 
     $: {
@@ -38,8 +38,7 @@
 
 </script>
 
-<div class="card {show ? 'active' : 'undefined'}" transition:fly>
-    
+<div id="active-services-card" class="card {show ? 'active' : 'undefined'}">
     {#if show}
         <div class="card-inner col-12 p-0 m-0" transition:fade>
             <div class="col-12 d-flex justify-content-between px-0 align-items-end">

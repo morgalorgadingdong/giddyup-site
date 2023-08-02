@@ -26,6 +26,7 @@
     #back-to-top {
         opacity: 0;
         transition: all 0.5s;
+        
     }
 
     #back-to-top a {
@@ -47,7 +48,8 @@
         color: white;
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        z-index: 999; 
+        z-index: 999;
+        border-radius: 5px; 
         box-shadow: -2px 2px 4px var(--color-secondary);}
         #back-to-top a:hover {
             color: var(--color-secondary);

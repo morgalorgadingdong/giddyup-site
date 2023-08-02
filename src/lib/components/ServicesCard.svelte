@@ -27,7 +27,7 @@ function setActiveService() {
 
 </script>
 
-<div class="card px-3 py-3 {active ? 'active' : undefined}" on:click={setActiveService}>
+<div class="card p-2 p-md-3 {active ? 'active' : undefined}" on:click={setActiveService}>
     <div class="col-12 d-flex justify-content-between px-0 align-items-end services-icon-container">
         <p class="card-number mb-0 mr-2">{number}.</p>
         <img src={img} alt={service} class="services-icon mx-0 my-0"/>
@@ -64,7 +64,7 @@ function setActiveService() {
 
     .card-number {
         font-size: 2rem;
-        font-weight: 700;
+        font-weight: 500;
         color: var(--color-secondary);
         font-family: var(--font-header);
     }
