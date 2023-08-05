@@ -154,6 +154,11 @@ em {
   padding: 1rem;
   background-color: black;
   border-radius: 5px;
+  
+}
+
+
+.card.active {
   border: solid 1px var(--color-secondary);
 }
 

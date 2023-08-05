@@ -24,6 +24,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@sveltejs/adapter-netlify": "^2.0.8"
+		"@splidejs/svelte-splide": "^0.2.9",
+		"@sveltejs/adapter-netlify": "^2.0.8",
+		"heroku": "^8.1.9"
 	}
 }

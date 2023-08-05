@@ -33,7 +33,7 @@
 
 
   <style>
-    a.page {
-
+    b {
+      font-weight: bold;
     }
   </style>

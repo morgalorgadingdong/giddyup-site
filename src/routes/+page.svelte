@@ -260,6 +260,7 @@
 
     h6 b {
       color: var(--color-secondary);
+      font-weight: 500;
     }
 
     /* section {
