@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
     import { blogs } from '$lib/blog/blogs.blogs'
     import BlogCard from '$lib/components/BlogCard.svelte'
 </script>
@@ -27,4 +27,4 @@
     .hero-img {
         object-position: center;
     }
-</style>
+</style> -->
