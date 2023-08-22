@@ -16,7 +16,7 @@
         <ul id="menu" class="">
           <a href="portfolio" data-sveltekit-reload><li> {#if $page.url.pathname.startsWith('/portfolio')} <b class="px-1">/</b>{/if}portfolio</li></a>
           <!-- <a href="/services"><li>services</li></a> -->
-          <a href="blog" data-sveltekit-reload><li>{#if $page.url.pathname.startsWith('/blog')} <b class="px-1">/</b>{/if}blog</li></a>
+          <!-- <a href="blog" data-sveltekit-reload><li>{#if $page.url.pathname.startsWith('/blog')} <b class="px-1">/</b>{/if}blog</li></a> -->
           <a href="about" data-sveltekit-reload><li>{#if $page.url.pathname.startsWith('/about')} <b class="px-1">/</b>{/if}about</li></a>
           <a href="contact" data-sveltekit-reload><li>{#if $page.url.pathname.startsWith('/contact')} <b class="px-1">/</b>{/if}contact</li></a>
         </ul>
@@ -24,7 +24,7 @@
       <ul class="d-lg-flex d-none justify-content-between align-items-center">
         <a href="portfolio"><li> {#if $page.url.pathname.startsWith('/portfolio')} <b class="px-1">/</b>{/if} portfolio</li></a>
           <!-- <a href="#process"><li>services</li></a> -->
-          <a href="blog" data-sveltekit-reload><li>{#if $page.url.pathname.startsWith('/blog')} <b class="px-1">/</b>{/if}blog</li></a>
+          <!-- <a href="blog" data-sveltekit-reload><li>{#if $page.url.pathname.startsWith('/blog')} <b class="px-1">/</b>{/if}blog</li></a> -->
           <a href="about" data-sveltekit-reload><li>{#if $page.url.pathname.startsWith('/about')} <b class="px-1">/</b>{/if}about</li></a>
           <a href="contact" data-sveltekit-reload><li>{#if $page.url.pathname.startsWith('/contact')} <b class="px-1">/</b>{/if}contact</li></a>
       </ul> 

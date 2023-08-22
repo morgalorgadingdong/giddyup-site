@@ -196,7 +196,7 @@
       <div class="col-12 my-5"></div> -->
     </div>
   </section>
-  <section id="motto" class="col-12 d-flex justify-content-center align-content-center flex-wrap  animate animate-left">
+  <section id="testimonial" class="col-12 d-flex justify-content-center align-content-center flex-wrap  animate animate-left">
     <div class="caption-bg-left col-12"></div>
     <div class="col-12 d-flex justify-content-center align-content-center caption-text-container">
       <!-- <h4 class="col-12 col-md-10 col-lg-6">Creating a beautiful website for your business shouldn't cost thousands of dollars or be a full time job. Giddyup exists to help small businesses leverage the power of technology to accomplish their goals, without breaking the bank or monopolizing their time.</h4> -->
@@ -252,6 +252,11 @@
 
   <style>
 
+    #testimonial h4 {
+      font-size: 1.3rem;
+      font-weight: 400;
+      line-height: 2rem;
+    }
 
     #contact h6 {
       font-size: 2rem;
