@@ -3,7 +3,7 @@
 </script>
 
 <header id="top" class="col-12 d-flex justify-content-center">
-    <nav class="col-12 col-xl-11 mt-xl-3 d-flex justify-content-between align-content-center">
+    <nav class="col-12 col-xl-11 mt-xl-3 d-flex justify-content-between align-content-center" data-sveltekit-reload>
       <a id="navlogo-container" class="d-flex justify-content-start align-content-center" href='/' data-sveltekit-reload>
         <img class="logo-icon" src="img/logo-icon.png"/>
         <h2 class="logo-font">/ giddyup</h2>
