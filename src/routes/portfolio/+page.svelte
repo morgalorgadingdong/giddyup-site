@@ -3,18 +3,31 @@
 </script>
 
 <section id="work" class="col-12 d-flex justify-content-center">
-    <div class="col-12 col-md-10 col-xl-8 d-flex justify-content-center flex-wrap" >
+  <div class="col-12 col-md-10 col-xl-8 d-flex justify-content-center flex-wrap" >
+    <!-- <h2 class="col-12 mt-3 animate-bottom animate-delay animate ">portfolio</h2> -->
+    <h3 class="col-12 mt-5">Oregon Bicycle Adventures</h3>
+    <div class="col-12 d-flex justify-content-center work-img-container my-lg-5 my-3">
+      <div class="img-desktop col-12 col-md-11 " style="background-image: url('img/oba-desktop.jpg')" onclick="location.href='https://oregonbicycleadventures.com'"></div>
+    <div class="img-mobile col-3 col-md-2 animate-delay " style="background-image: url('img/oba-mobile.jpg')" onclick="location.href='https://oregonbicycleadventures.com'"></div>
+  </div>
+  <div class="col-12 my-lg-5 my-3 d-flex justify-content-start flex-wrap px-0">
+    <span>website design & development</span>
+    <span>online bookings</span>
+    <span>online store</span>
+    <span>blog management</span>
+    <span>hosting</span>
+  </div>
+  
+
+  
       <!-- <h2 class="col-12 mt-3 animate-bottom animate-delay animate ">portfolio</h2> -->
-      <h3 class="col-12 mt-5">Oregon Bicycle Adventures</h3>
+      <h3 class="col-12 mt-5">The Speech Path Central Oregon</h3>
       <div class="col-12 d-flex justify-content-center work-img-container my-lg-5 my-3">
-        <div class="img-desktop col-12 col-md-11 " style="background-image: url('img/oba-desktop.jpg')" onclick="location.href='https://oregonbicycleadventures.com'"></div>
-      <div class="img-mobile col-3 col-md-2 animate-delay " style="background-image: url('img/oba-mobile.jpg')" onclick="location.href='https://oregonbicycleadventures.com'"></div>
+        <div class="img-desktop col-12 col-md-11 animate animate-left" style="background-image: url('img/tspco-desktop.jpg')" onclick="location.href='https://cospeechpath.co/'"></div>
+      <div class="img-mobile col-3 col-md-2 animate-delay animate animate-left" style="background-image: url('img/tspco-mobile.jpg')" onclick="location.href='https://cospeechpath.co/'"></div>
     </div>
     <div class="col-12 my-lg-5 my-3 d-flex justify-content-start flex-wrap px-0">
       <span>website design & development</span>
-      <span>online bookings</span>
-      <span>online store</span>
-      <span>blog management</span>
       <span>hosting</span>
     </div>
       

@@ -70,7 +70,6 @@
         "web design", 
         "web development",
         "seo services",
-        
         "web hosting"
         ];
 
